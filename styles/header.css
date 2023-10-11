@@ -1,0 +1,144 @@
+
+.header{
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top:0;
+  left:0;
+  right: 0;
+  background-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(192,192,192);
+  z-index: 100; 
+}
+
+.left-section{ 
+  display: flex;
+  align-items: center;
+  }
+
+  .hamburger,.youtube-logo{
+    height: 30px;
+    }
+.hamburger{
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.middle-section{
+  
+  flex:1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.search{
+  flex:1;
+  height: 39px;
+  padding-left: 10px;
+  font-size: 18px;
+  border-width: 1px;
+  border-color: rgb(192,192,192);
+  border-style: solid;
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+   width: 0;
+
+}
+
+.search::placeholder{
+  font-family: arial;
+  font-size: 16px;
+}
+
+.search-button2{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(192,192,192);
+  margin-right: 20px;
+  margin-left: -2px;
+
+}
+
+.searchbtn,.voicebtn,.create-btn{
+  position: relative;
+ 
+  
+}
+
+.searchbtn .tool-tip,.voicebtn .tool-tip,.create-btn .tool-tip{
+  background-color: gray;
+  color: white;
+  position: absolute;
+  padding-left: 8px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-right: 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+  
+
+
+}
+
+.searchbtn:hover .tool-tip,.voicebtn:hover .tool-tip,.create-btn:hover .tool-tip{
+  opacity: 1;
+
+}
+
+
+
+
+
+.voice-button{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(192,192,192);
+  
+  width: 20px;
+  border-radius: 15 px;
+  
+}
+.channel{
+  width:50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.right-section{
+ margin-right: 20px;
+  width:180px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  flex-shrink: 0;
+}
+.notifications{
+  position: relative;
+}
+.notifications-count{
+  position: absolute;
+  top:-4px;
+  right: -8px; 
+  background-color: red;
+  color: white;
+  border-radius:19px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: -1px;
+  padding-bottom: 1px;
+}
+
+
+

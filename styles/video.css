@@ -1,0 +1,84 @@
+.profilepic1{
+  width: 100%;
+  border-radius: 50%; 
+  }
+
+  .profpic2{
+    width: 100%;  
+    border-radius:50%;
+  }
+
+.video-title{
+  margin-top: 0;
+  margin-bottom: 0;
+  width:100%;
+}
+
+
+.p-laugh{
+  margin-top:0;
+}
+
+.pic-text{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.div-gridarea{
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 40px;
+    font-family: Arial;
+  
+}
+
+
+
+.pic1,.pic2,.pic3,.pic4,.pic5,.pic6{
+  width:100%;
+}
+
+.divpicture1{
+  position: relative;
+}
+.video1-time{
+  position: absolute;
+  background-color: black;
+  color: white;
+  bottom: 9px;
+  right:5px;
+  
+}
+
+.div-thumbnail2{
+  position: relative;
+}
+
+.video2-time{
+  position: absolute;
+  background-color: black;
+  color: white;
+  bottom: 9px;
+  right:5px;
+  
+}
+
+.divpicture5{
+  position: relative;
+}
+.video5-time{
+  position: absolute;
+  background-color: black;
+  color: white;
+  bottom: 9px;
+  right:5px;
+}
+
+.video-info{
+font-family: arial;
+font-size: 14px;
+}
+.video-author{
+  margin-bottom: 12px;
+}
